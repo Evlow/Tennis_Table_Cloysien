@@ -12,8 +12,6 @@
       <!--CONTACT-->
       <div class="footer-contact">
         <h2 class="h2-footer">Nous contacter</h2>
-        <p><img class="svg-footer" src="./img/mail.svg" alt="icone téléphone">tennisdetablecloysien@free.fr</p>
-        <p><img class="svg-footer" src="./img/phone.svg" alt="icone téléphone">07 55 67 10 41</p>
       </div>
 
       <!--ADMIN-->
@@ -41,18 +39,3 @@ nav {
 }
 </style>
 
-    </footer>
-</template>
-
-<script>
-export default{
-data() {
-    return {
-
-
-    }
-}
-
-}
-
-</script>

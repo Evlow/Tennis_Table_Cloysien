@@ -8,12 +8,12 @@
 
 <script>
 import PublicNav from '@/components/PublicNav.vue'
-import FooterVue from '@/components/Footer.vue'
+import Footer from '@/components/Footer.vue'
 export default {
     name:'PublicLayout',
     components:{
         PublicNav,
-        FooterVue
+        Footer,
     }
 }
 </script>
