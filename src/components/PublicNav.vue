@@ -1,4 +1,9 @@
 <template>
+<header>
+    <h1><router-link to="/"></router-link>
+<img class="logo" src="../assets/logo.svg " alt="Logo tennis de table Cloysien" /></h1>
+</header>
+
   <nav>
     <router-link to="/club">Le club</router-link>
     <router-link to="/teams">Les équipes</router-link>
