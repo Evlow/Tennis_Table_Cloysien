@@ -9,6 +9,10 @@ import NotFound from "@/views/public/NotFound.vue";
 
 import PublicLayout from "@/views/public/Layout.vue";
 
+
+import AdminLayout from "@/views/admin/Layout.vue";
+import Dashboard from "@/views/admin/Dashboard.vue";
+
 const routes = [
   {
     path: "/",
@@ -50,6 +54,15 @@ const routes = [
         component: Contact,
       },
     ],
+  },
+
+  {
+    path:'/admin',
+    name:'admin',
+    component: AdminLayout,
+    children: [
+     { path:'dashboard', name: 'dashboard', Component: Dashboard}
+    ]
   },
 
   {
