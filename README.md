@@ -1,4 +1,4 @@
-# ttc
+# Tennis_Table_Cloysien
 
 ## Project setup
 ```
