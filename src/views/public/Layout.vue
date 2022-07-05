@@ -19,7 +19,5 @@ export default {
 </script>
 
 <style scoped>
-.public{
-    border: solid 1px;
-}
+
 </style>
